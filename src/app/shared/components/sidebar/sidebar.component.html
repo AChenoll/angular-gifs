@@ -1,0 +1,10 @@
+<div class="bg-dark border-right p-3" id="Sidebar">
+  <h3 class="text-lihgt">GifsApp</h3>
+  <hr>
+
+  <div class="list-group list-reset">
+    <button *ngFor="let item of mostrarBusquedas()" class="list-group-item list-group-item-action">
+      {{item|titlecase}}
+    </button>
+  </div>
+</div>
