@@ -17,4 +17,8 @@ export class SidebarComponent {
     return this.busquedas;
   }
 
+  anadir(nombreEtiqueta:string){
+    this.gifsService.buscarEtiqueta(nombreEtiqueta)
+  }
+
 }
